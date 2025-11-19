@@ -1,5 +1,5 @@
 #include <drogon/drogon.h>
-#include "MarketService.h"
+
 
 int main()
 {
@@ -24,6 +24,7 @@ int main()
             callback(resp);
         },
         {drogon::Get, drogon::Options});
+        
 
     // ------------------- POST /api/data -------------------
     app.registerHandler("/api/data",
@@ -57,8 +58,6 @@ int main()
         {drogon::Post, drogon::Options});
 
     // ------------------- Initialize singletons -------------------
-    MarketService::instance().init();
-
     // ------------------- Run the server -------------------
     app.run();
 }
