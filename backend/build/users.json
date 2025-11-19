@@ -1,0 +1,27 @@
+[
+    {
+        "email" : "john@example.com",
+        "password" : "mypassword",
+        "username" : "mughees"
+    },
+    {
+        "email" : "john@example.com",
+        "password" : "mypassword",
+        "username" : "mughees1"
+    },
+    {
+        "email" : "john@example.com",
+        "password" : "mypassword",
+        "username" : "mughees12"
+    },
+    {
+        "email" : "john@example.com",
+        "password" : "mypass",
+        "username" : "mughees16"
+    },
+    {
+        "email" : "mughees@example.com",
+        "password" : "123456",
+        "username" : "abc"
+    }
+]
